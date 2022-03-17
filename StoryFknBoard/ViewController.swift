@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     "Udin",
     "Dinda"
   ]
-  
+   // tableview
   override func viewDidLoad() {
     super.viewDidLoad()
     
