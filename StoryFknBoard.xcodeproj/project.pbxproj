@@ -16,6 +16,8 @@
 		B8B5B09827E2B1DD007DE068 /* StoryFknBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B5B09727E2B1DD007DE068 /* StoryFknBoardTests.swift */; };
 		B8B5B0A227E2B1DD007DE068 /* StoryFknBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B5B0A127E2B1DD007DE068 /* StoryFknBoardUITests.swift */; };
 		B8B5B0A427E2B1DD007DE068 /* StoryFknBoardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B5B0A327E2B1DD007DE068 /* StoryFknBoardUITestsLaunchTests.swift */; };
+		B8B5B0B627E2C6EA007DE068 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B5B0B427E2C6EA007DE068 /* MyCollectionViewCell.swift */; };
+		B8B5B0B727E2C6EA007DE068 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B5B0B527E2C6EA007DE068 /* MyCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B8B5B09D27E2B1DD007DE068 /* StoryFknBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryFknBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B5B0A127E2B1DD007DE068 /* StoryFknBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryFknBoardUITests.swift; sourceTree = "<group>"; };
 		B8B5B0A327E2B1DD007DE068 /* StoryFknBoardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryFknBoardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B8B5B0B427E2C6EA007DE068 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		B8B5B0B527E2C6EA007DE068 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				B8B5B08927E2B1DD007DE068 /* Assets.xcassets */,
 				B8B5B08B27E2B1DD007DE068 /* LaunchScreen.storyboard */,
 				B8B5B08E27E2B1DD007DE068 /* Info.plist */,
+				B8B5B0B427E2C6EA007DE068 /* MyCollectionViewCell.swift */,
+				B8B5B0B527E2C6EA007DE068 /* MyCollectionViewCell.xib */,
 			);
 			path = StoryFknBoard;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			files = (
 				B8B5B08D27E2B1DD007DE068 /* LaunchScreen.storyboard in Resources */,
 				B8B5B08A27E2B1DD007DE068 /* Assets.xcassets in Resources */,
+				B8B5B0B727E2C6EA007DE068 /* MyCollectionViewCell.xib in Resources */,
 				B8B5B08827E2B1DB007DE068 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			files = (
 				B8B5B08527E2B1DB007DE068 /* ViewController.swift in Sources */,
 				B8B5B08127E2B1DB007DE068 /* AppDelegate.swift in Sources */,
+				B8B5B0B627E2C6EA007DE068 /* MyCollectionViewCell.swift in Sources */,
 				B8B5B08327E2B1DB007DE068 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
